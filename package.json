@@ -1,0 +1,27 @@
+{
+  "name": "bad-business-bot",
+  "version": "1.0.0",
+  "description": "This robot generates bad business ideas and posts them on Twitter. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kyle-west/bad-business-bot.git"
+  },
+  "keywords": [
+    "twitter",
+    "bot",
+    "robot",
+    "business",
+    "bad",
+    "ideas"
+  ],
+  "author": "Kyle West",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/kyle-west/bad-business-bot/issues"
+  },
+  "homepage": "https://github.com/kyle-west/bad-business-bot#readme"
+}
