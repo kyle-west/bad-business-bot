@@ -16,7 +16,18 @@ function getTransition (company, noun) {
    } 
 }
 
-console.log(generateBBB());
-console.log(generateBBB());
-console.log(generateBBB());
-console.log(generateBBB());
+
+function runBot() {
+   console.log(generateBBB());
+   setTimeout(runBot, Math.floor(Math.random() * 1000 * 120))   
+}
+
+runBot();
+
+var http = require('http');
+
+//create a server object:
+http.createServer(function (req, res) {
+  res.write('Bad Buisness Bot'); //write a response to the client
+  res.end(); //end the response
+}).listen(8080); 
